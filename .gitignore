@@ -1,3 +1,7 @@
+# 11ty
+# default build folder
+_site/
+
 # Logs
 logs
 *.log
