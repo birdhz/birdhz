@@ -4,6 +4,7 @@
   "description": "i plan to use this repo with github actions to push onto a neocities website for a personal blog / website.",
   "main": "index.js",
   "scripts": {
+    "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
