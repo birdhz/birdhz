@@ -1,6 +1,6 @@
 # birdhz site
 
-i plan to use this repo with github actions to push onto a neocities website for a personal blog / website.
+i plan to use this repo with github actions to push onto [a neocities website](https://birdhz.neocities.org) for a personal blog / website.
 
 ## todo
 - [ ] figure out posts and date formats (don't need the extra times & zone codes)
