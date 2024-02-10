@@ -1,0 +1,4 @@
+---
+layout: base
+---
+{% include "postlist.njk" %}
