@@ -28,6 +28,8 @@ ideas about some pages to make??
 * https://deploy-to-neocities.neocities.org/
 * https://www.njfamirm.ir/en/blog/eleventy-folder-structure-guide/
 * https://thenewstack.io/introduction-to-eleventy-a-modern-static-website-generator/
+* https://www.11ty.dev/docs/samples/
+  * https://github.com/quinnanya/quinnanya.github.io
 
 ### hosting
 
