@@ -12,6 +12,7 @@ i plan to use this repo with github actions to push onto [a neocities website](h
 - [ ] rss via atom?
 - [ ] use semantic tags for templates / layouts
 - [ ] what is difference between a template and layout?
+- [ ] migrate `README` content (e.g. `inspiration`) to site contents
 
 ### pages
 
@@ -27,3 +28,15 @@ ideas about some pages to make??
 * https://deploy-to-neocities.neocities.org/
 * https://www.njfamirm.ir/en/blog/eleventy-folder-structure-guide/
 * https://thenewstack.io/introduction-to-eleventy-a-modern-static-website-generator/
+
+### hosting
+
+decouple from google et. all
+
+* https://porkbun.com/
+
+### inspiration
+
+* https://sadgrl.online/
+* https://hillhouse.neocities.org/
+* https://www.youtube.com/@Macabre_1031
