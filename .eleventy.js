@@ -6,12 +6,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/fonts");
 
   // css
-  eleventyConfig.addPassthroughCopy("bundle.css");
+  eleventyConfig.addPassthroughCopy("src/css/");
 
   // change default build directory from _site to dist
   return {
     dir: {
-      output: "dist"
+      input: "src",
+      output: "dist",
     }
   }
 };

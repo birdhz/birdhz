@@ -1,7 +1,8 @@
 # 11ty
-# build folders
+# build artifacts
 _site/
 dist/
+public/
 
 # Logs
 logs
