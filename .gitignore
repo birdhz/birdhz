@@ -1,6 +1,6 @@
 # 11ty
 # build folders
-_site/ # default
+_site/
 dist/
 
 # Logs
