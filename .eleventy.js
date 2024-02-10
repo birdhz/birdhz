@@ -1,18 +1,12 @@
-// change default build directory from _site to dist
 module.exports = function(eleventyConfig) {
+  // fonts
+  eleventyConfig.addPassthroughCopy("assets/fonts");
+  // css
+  eleventyConfig.addPassthroughCopy("bundle.css");
+  // change default build directory from _site to dist
   return {
     dir: {
       output: "dist"
     }
   }
-};
-
-// fonts
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("assets/fonts");
-};
-
-// css
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("bundle.css");
 };
