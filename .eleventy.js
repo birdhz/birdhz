@@ -1,14 +1,16 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   // fonts
-  eleventyConfig.addPassthroughCopy("assets/fonts");
+  eleventyConfig.addPassthroughCopy("./assets/fonts");
 
-  // css
-  eleventyConfig.addPassthroughCopy("src/css/");
+  eleventyConfig.addPassthroughCopy("./src/css/");
+  eleventyConfig.addWatchTarget("./src/css/");
 
-  // change default build directory from _site to dist
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
   return {
     dir: {
       input: "src",

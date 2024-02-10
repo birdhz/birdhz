@@ -1,23 +1,18 @@
----
-title: Home page
----
-
-
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="/css/bundle.css" />
+    <title>{{ title }}{% if page.url != '/' %} | {{ meta.siteName }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
   </head>
   <body>
-    <header>
-      <h1>{{ title }}</h1>
-    </header>
-    <main>
-      {{ content | safe }}
-    </main>
+    {% include "nav.njk" %}
+
+    {{ content | safe }}
+
+    {% include "footer.njk" %}
+
   </body>
 </html>
 
