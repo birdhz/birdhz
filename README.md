@@ -13,6 +13,14 @@ i plan to use this repo with github actions to push onto [a neocities website](h
 - [ ] use semantic tags for templates / layouts
 - [ ] what is difference between a template and layout?
 
+### pages
+
+ideas about some pages to make??
+
+- [ ] tea favs / shrine
+- [ ] coffee favs / shrine
+- [ ] recipes??
+
 ## useful links
 
 * https://www.youtube.com/watch?v=kzf9A9tkkl4
