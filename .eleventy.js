@@ -1,4 +1,6 @@
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   // fonts
   eleventyConfig.addPassthroughCopy("assets/fonts");

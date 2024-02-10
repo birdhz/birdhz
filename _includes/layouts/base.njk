@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html>
+---
+title: Home page
+---
+
+
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>birdhz</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="/bundle.css">
   </head>
   <body>
     <header>
-      <h1>{{ title | default: "my site" }}</h1>
+      <h1>{{ title }}</h1>
     </header>
     <main>
-      {{ content }}
+      {{ content | safe }}
     </main>
   </body>
 </html>
