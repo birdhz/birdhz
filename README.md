@@ -24,6 +24,7 @@ ideas about some pages to make??
 
 ## useful links
 
+* https://11ty.rocks/posts/going-beyond-static-with-eleventy/
 * https://11ty.rocks/posts/create-your-first-basic-11ty-website/
 * https://www.youtube.com/watch?v=kzf9A9tkkl4
 * https://deploy-to-neocities.neocities.org/
