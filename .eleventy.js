@@ -3,11 +3,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("page", "layouts/page.njk");
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
-  // fonts
-  eleventyConfig.addPassthroughCopy("./assets/fonts");
+  eleventyConfig.addPassthroughCopy("./src/css");
+  eleventyConfig.addPassthroughCopy("./src/fonts");
+  eleventyConfig.addPassthroughCopy("./src/img");
 
-  eleventyConfig.addPassthroughCopy("./src/css/");
-  eleventyConfig.addWatchTarget("./src/css/");
+  eleventyConfig.addWatchTarget("./src/css");
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
