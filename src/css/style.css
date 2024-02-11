@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: Venice;
-  src: url("/assets/fonts/venice_classic/VeniceClassic.ttf") format("truetype");
+  src: url("/fonts/venice_classic/VeniceClassic.ttf") format("truetype");
 }
 
 main {
