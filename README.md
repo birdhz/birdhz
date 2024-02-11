@@ -22,6 +22,7 @@ ideas about some pages to make??
 
 ## useful links
 
+* https://internetingishard.netlify.app/html-and-css/flexbox/
 * https://flamedfury.com/guides/11ty-homepage-neocities/
 * https://karuma.me/resources/dev/
 * https://smol-11ty-starter.netlify.app/
