@@ -12,4 +12,16 @@ header {
 
 article {
   font-family: Redaction;
+  background: url("https://rec0de.net/var/papertiles/jpg/small/1965-45-4-v.jpg") repeat;
+  background-color: #eca09b;
+  background-blend-mode: color-dodge;
+
 }
+
+/* article {
+  font-family: redaction;
+  color: antiquewhite;
+  background: url("https://rec0de.net/var/papertiles/jpg/med/1965-45-4-v.jpg") repeat;
+  background-color: #0b424b;
+  background-blend-mode: color-burn;
+} */
