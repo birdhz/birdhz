@@ -3,10 +3,10 @@
 <nav>
   <ul role="list">
     <li>
-      <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Home</a>
+      <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/" id="homelink"></a>
     </li>
-
-    {% for page in collections.pages %}
+    {# Finds the 'page' collections by looking for src that have include a 'page' tag in frontmatter #}
+    {% for page in collections.page %}
     <li>
       <a 
         {% if currentUrl === page.url %}aria-current="page"{% endif %} 

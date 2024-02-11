@@ -18,6 +18,14 @@ article {
 
 }
 
+nav [aria-current="page"]#homelink::before{
+  content: "\2665";
+}
+
+nav #homelink::before{
+  content: "\2661";
+}
+
 /* article {
   font-family: redaction;
   color: antiquewhite;
