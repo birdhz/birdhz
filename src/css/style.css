@@ -1,13 +1,9 @@
 @import "smol-11ty-starter.css";
+@import "redaction.css";
 
 @font-face {
   font-family: Venice;
   src: url("/fonts/venice_classic/VeniceClassic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: Redaction;
-  src: url("/fonts/redaction/Redaction_10-Regular.woff2") format("woff2");
 }
 
 header {
