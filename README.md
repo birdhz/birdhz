@@ -24,6 +24,8 @@ ideas about some pages to make??
 
 ## useful links
 
+* https://flamedfury.com/guides/11ty-homepage-neocities/
+* https://karuma.me/resources/dev/
 * https://smol-11ty-starter.netlify.app/
 * https://11ty.rocks/posts/going-beyond-static-with-eleventy/
 * https://11ty.rocks/posts/create-your-first-basic-11ty-website/
