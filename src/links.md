@@ -1,6 +1,6 @@
 ---
 layout: page
-tags: page
+tags: nav
 title: links
 ---
 

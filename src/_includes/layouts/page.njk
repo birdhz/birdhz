@@ -4,7 +4,9 @@ layout: base
 
 <main>
   <header>
-    <h1>{{ title }}</h1>
+    {# Can't use 'page.data.title' as 'data' can only be used on a 11ty collection's item #}
+    <h1>{{ title or page.fileSlug }}</h1>
+    {# TODO: is this title redundant (see nav) #}
   </header>
   <article>
     {{ content | safe }}

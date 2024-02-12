@@ -1,6 +1,6 @@
 ---
 title: blog
-tags: page
+tags: nav
 layout: page
 ---
 

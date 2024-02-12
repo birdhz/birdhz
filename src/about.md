@@ -1,7 +1,6 @@
 ---
 layout: page
-tags: page
-title: about
+tags: nav
 ---
 
 mbti, astrology, gender, etc.
