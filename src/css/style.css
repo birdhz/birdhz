@@ -18,11 +18,11 @@ article {
 
 }
 
-nav [aria-current="page"]#homelink::before{
+nav [aria-current="page"]#homelink::before {
   content: "\2665";
 }
 
-nav #homelink::before{
+nav #homelink::before {
   content: "\2661";
 }
 
