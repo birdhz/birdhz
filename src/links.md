@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 tags: page
 title: links
 ---

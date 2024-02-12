@@ -1,7 +1,7 @@
 ---
-layout: base
+layout: page
 tags: page
 title: about
 ---
 
-this is an about me
+mbti, astrology, gender, etc.
