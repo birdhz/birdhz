@@ -1,29 +1,29 @@
-@import "smol-11ty-starter.css";
-@import "redaction.css";
+@import 'smol-11ty-starter.css';
+@import 'redaction.css';
 
 @font-face {
-  font-family: Venice;
-  src: url("/fonts/venice_classic/VeniceClassic.ttf") format("truetype");
+    font-family: Venice;
+    src: url('/fonts/venice_classic/VeniceClassic.ttf') format('truetype');
 }
 
 header {
-  font-family: Venice, Courier;
+    font-family: Venice, Courier;
 }
 
 article {
-  font-family: Redaction;
-  background: url("https://rec0de.net/var/papertiles/jpg/small/1965-45-4-v.jpg") repeat;
-  background-color: #eca09b;
-  background-blend-mode: color-dodge;
-
+    font-family: Redaction;
+    background: url('https://rec0de.net/var/papertiles/jpg/small/1965-45-4-v.jpg')
+        repeat;
+    background-color: #eca09b;
+    background-blend-mode: color-dodge;
 }
 
-nav [aria-current="page"]#homelink::before {
-  content: "\2665";
+nav [aria-current='page']#homelink::before {
+    content: '\2665';
 }
 
 nav #homelink::before {
-  content: "\2661";
+    content: '\2661';
 }
 
 /* article {

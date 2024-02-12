@@ -1,9 +1,9 @@
 module.exports = {
   // NOTE: `process.env.URL` is provided by Netlify, and may need
   // adjusted pending your host
-  url: process.env.URL || "http://localhost:8080",
-  siteName: "birdhz",
+  url: process.env.URL || 'http://localhost:8080',
+  siteName: 'birdhz',
   siteDescription:
-    "a personal site inspired by neocities and commonplace books",
-  authorName: "birdhz" // optional
-};
+    'a personal site inspired by neocities and commonplace books',
+  authorName: 'birdhz', // optional
+}

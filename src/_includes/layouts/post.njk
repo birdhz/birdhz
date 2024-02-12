@@ -3,18 +3,15 @@ layout: base
 ---
 
 <main>
-
   <article>
     <header>
       <h2>{{ title }}</h2>
     </header>
     {{ content | safe }}
   </article>
-
 </main>
-  
 <aside>
-    {% for fact in facts %}
-      <p>{{ fact }}</p>
-    {% endfor %}
+  {% for fact in facts %}
+    <p>{{ fact }}</p>
+  {% endfor %}
 </aside>

@@ -1,8 +1,12 @@
 <footer>
   <div>
-    <p>&copy; {% year %} {{ meta.siteName }}{% if meta.authorName %} • {{ meta.authorName }}{% endif %}</p>
+    <p>&copy; {% year %}
+      {{ meta.siteName }}
+      {% if meta.authorName %}
+        • {{ meta.authorName }}
+      {% endif %}
+    </p>
   </div>
   <a href="https://neocities.org" target="_blank">
-    <img src="/img/neocities.png">
-  </a>
-</footer>
+    <img src="/img/neocities.png"></a>
+  </footer>
