@@ -14,5 +14,9 @@ layout: base
 </main>
 <aside>
   {% set q = quotes | findQuote('To write weekly, to write daily, to write shortly') %}
-  {{ q.quote }}
+  <figure>
+    <p>{{ q.quote }}</p>
+    <figcaption>
+      <cite>{{ q.title }}</cite>, {{ q.author }}</figcaption>
+  </figure>
 </aside>
