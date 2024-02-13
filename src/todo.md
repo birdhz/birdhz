@@ -2,7 +2,13 @@
 layout: page
 tags: nav
 title: todo
+header: welcome to the mess
 ---
+
+## builds
+
+- https://www.roboleary.net/webdev/2024/01/24/eleventy-production-flag.html
+- use 11ty incremental builds?
 
 ## structure
 
@@ -18,7 +24,9 @@ title: todo
 
   - ~~i.e. should we be using `page.data.title` instead or as a fallback `title` in case it's undefined~~
 
-    - **done**: see above for solution for `nav.njk`; for rendering the `page.njk` layout, we can use `{{ '{{ title or page.fileSlug }}' }}`; `page.data.title` only makes sense within a collection via its `<collectionItem>.data` api;
+    - ~~**done**: see above for solution for `nav.njk`; for rendering the `page.njk` layout, we can use `{{ '{{ title or page.fileSlug }}' }}`; `page.data.title` only makes sense within a collection via its `<collectionItem>.data` api;~~
+
+    - <ins>**done** : we use a new front matter key, `header`, to use as our heading content for a page; fallback to `title` which the page layout now defines with a default value</ins>
 
   - ~~e.g. remove `title: todo` from `todo.md` -> it won't be a part of the nav anymore~~
 

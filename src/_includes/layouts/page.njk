@@ -1,11 +1,12 @@
 ---
 layout: base
+title: PAGE_TITLE
 ---
 
 <main>
   <header>
     {# Can't use 'page.data.title' as 'data' can only be used on a 11ty collection's item #}
-    <h1>{{ title or page.fileSlug }}</h1>
+    <h1>{{ header or title }}</h1>
     {# TODO: is this title redundant (see nav) #}
   </header>
   <article>
