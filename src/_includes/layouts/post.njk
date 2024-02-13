@@ -13,7 +13,6 @@ layout: base
   </article>
 </main>
 <aside>
-  {% for fact in facts %}
-    <p>{{ fact }}</p>
-  {% endfor %}
+  {% set q = quotes | findQuote('To write weekly, to write daily, to write shortly') %}
+  {{ q.quote }}
 </aside>

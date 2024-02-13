@@ -26,6 +26,14 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter('findQuote', (quotesArray, text) => {
+    let result = quotesArray.find((item) =>
+      item.quote.toLowerCase().includes(text.toLowerCase())
+    );
+    console.log(result);
+    return result;
+  });
+
   return {
     dir: {
       input: 'src',
