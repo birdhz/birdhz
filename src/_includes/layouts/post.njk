@@ -4,7 +4,7 @@ layout: base
 
 <main>
   <h1>{{ title }}</h1>
-  <article>
+  <article class='post'>
     <header>
       <h2>{{ subtitle }}</h2>
       <time datetime='{{ page.date }}'>{{ page.date | postDate }}</time>
@@ -12,6 +12,6 @@ layout: base
     {{ content | safe }}
   </article>
 </main>
-<aside>
+<aside class='quote'>
   {% include 'quote.njk' %}
 </aside>

@@ -1,25 +1,10 @@
 {% set q = quotes | findQuote('To write weekly, to write daily, to write shortly') %}
-{# different ways to render the quote #}
-{# 1 - use figure and its accessibility complement, figcaption#}
-  <figure>
-    <p>
-  {{ q.quote }}
+<figure>
+  <p>
+    {{ q.quote }}
   </p>
-    <figcaption>
-      <cite><a href='{{ q.url }} ' target='_blank'>{{ q.title }}</a>
+  <figcaption>
+    <cite>
+      <a href='{{ q.url }} ' target='_blank'>{{ q.title }}</a>
     </cite>, {{ q.author }}</figcaption>
 </figure>
-{# 2 - use blockquote with an inner footer
-<blockquote cite='{{ q.url }}'>
-  <p>{{ q.quote }}</p>
-  <footer>&#8212; {{ q.author }},
-    <cite>
-      <a href='{{ q.url }}' target='_blank'>{{ q.title }}</a>
-    </cite>
-  </footer>
-</blockquote>
-#}
-{# q -- should only be used for short, inline quotes
-<q cite='{{ q.url }}'>{{ q.quote }}</q>
-<p>{{ q.author }}</p>
-#}

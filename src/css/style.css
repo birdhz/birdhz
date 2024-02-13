@@ -1,29 +1,79 @@
+@import 'css-reset.css';
 @import 'smol-11ty-starter.css';
 @import 'redaction.css';
 
 @font-face {
-    font-family: Venice;
-    src: url('/fonts/venice_classic/VeniceClassic.ttf') format('truetype');
+  font-family: Venice;
+  src: url('/fonts/venice_classic/VeniceClassic.ttf') format('truetype');
 }
 
 header {
-    font-family: Venice, Courier;
+  font-family: Venice, Courier;
 }
 
-article {
-    font-family: Redaction;
-    background: url('https://rec0de.net/var/papertiles/jpg/small/1965-45-4-v.jpg')
-        repeat;
-    background-color: #eca09b;
-    background-blend-mode: color-dodge;
+cite {
+  font-style: italic;
+}
+
+article.post {
+  /* font-family: 'Redaction 35'; */
+  font-family: 'Venice';
+  background: url('https://rec0de.net/var/papertiles/jpg/small/1965-45-4-v.jpg')
+    repeat;
+  background-color: #eca09b;
+  background-blend-mode: color-dodge;
+}
+
+article header {
+  font-size: larger;
+}
+
+article time {
+  font-style: italic;
+  font-size: smaller;
+  color: #444;
+}
+
+article p {
+  font-size: medium;
 }
 
 nav [aria-current='page']#homelink::before {
-    content: '\2665';
+  content: '\2665';
 }
 
 nav #homelink::before {
-    content: '\2661';
+  content: '\2661';
+}
+
+.quote::before {
+  background: url('https://rec0de.net/var/papertiles/jpg/small/1965-45-4-v.jpg')
+    repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  top: 10px;
+  left: 10px;
+  z-index: -1;
+  border-radius: 5px;
+  transform: rotate(1deg);
+}
+
+.quote {
+  position: relative;
+  /* color: black; */
+  /* color: #424242; */
+  background-color: red;
+  font-family: 'Redaction 35';
+  font-size: small;
+  border-bottom: 1px dashed;
+  border-right: 1px dashed;
+  border-radius: 5px;
+
+  /* font-size: small; */
+  /* box-shadow: 10px 10px #946561; */
+  /* font-size: small; */
 }
 
 /* article {
