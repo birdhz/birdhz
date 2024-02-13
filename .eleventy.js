@@ -30,7 +30,6 @@ module.exports = function (eleventyConfig) {
     let result = quotesArray.find((item) =>
       item.quote.toLowerCase().includes(text.toLowerCase())
     );
-    console.log(result);
     return result;
   });
 
