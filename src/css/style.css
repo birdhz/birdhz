@@ -1,4 +1,4 @@
-@import 'css-reset.css';
+/* @import 'css-reset.css'; */
 @import 'smol-11ty-starter.css';
 @import 'redaction.css';
 
@@ -15,9 +15,9 @@ cite {
   font-style: italic;
 }
 
-article.post {
+article {
   /* font-family: 'Redaction 35'; */
-  font-family: 'Venice';
+  font-family: 'Redaction 35';
   background: url('https://rec0de.net/var/papertiles/jpg/small/1965-45-4-v.jpg')
     repeat;
   background-color: #eca09b;
