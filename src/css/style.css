@@ -12,10 +12,7 @@ header {
 
 article {
     font-family: Redaction;
-    background: url('https://rec0de.net/var/papertiles/jpg/small/1965-45-4-v.jpg')
-        repeat;
-    background-color: #eca09b;
-    background-blend-mode: color-dodge;
+    background: url('/img/birdhz-bg-small.jpg') repeat;
 }
 
 nav [aria-current='page']#homelink::before {
