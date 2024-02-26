@@ -11,4 +11,4 @@ some cool links:
 
 all-ages diy spaces:
 
-- [second home](https://dodiy.org/secondhome.html) (olympia, wa)
+- <a href='https://dodiy.org/secondhome.html' target='_blank'>second home</a> (olympia, wa)
