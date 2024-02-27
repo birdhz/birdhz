@@ -5,4 +5,4 @@ title: about
 header: owls are neat
 ---
 
-mbti, astrology, gender, etc.
+mbti, astrology, gender, teas, coffees, etc.
