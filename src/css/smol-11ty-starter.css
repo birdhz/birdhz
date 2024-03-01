@@ -114,11 +114,3 @@ code:not([class*="language"]) {
   padding-right: 0.15em;
   padding-left: 0.15em;
 }
-
-blockquote {
-  margin: 2rem 0;
-  padding: 0.5em 1rem;
-  border-left: 3px solid rgba(0, 0, 0, 0.35);
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 0 0.25rem 0.25rem 0;
-}
