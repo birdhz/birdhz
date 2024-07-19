@@ -3,10 +3,10 @@ layout: base
 ---
 
 <main>
-  <h1>{{ title }}</h1>
+  <h1 class='post-header'>{{ title }}</h1>
   <article>
     <header>
-      <h2>{{ subtitle }}</h2>
+      <h2 class='post-subtitle'>{{ subtitle }}</h2>
       <time datetime='{{ page.date }}'>{{ page.date | postDate }}</time>
     </header>
     {{ content | safe }}

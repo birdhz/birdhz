@@ -2,40 +2,56 @@
 @import 'redaction.css';
 
 @font-face {
-    font-family: Venice;
-    src: url('/fonts/venice_classic/VeniceClassic.ttf') format('truetype');
+  font-family: Venice;
+  src: url('/fonts/venice_classic/VeniceClassic.ttf') format('truetype');
+  backdrop-filter: invert(1);
 }
 
 blockquote {
-    text-align: justify;
-    font-family: courier;
-    font-size: smaller;
-    background: aliceblue;
-    margin: 2rem 0;
-    padding: 0.5em 1rem;
-    border-left: 3px double rgba(0, 0, 0, 0.35);
-    border-radius: 0 0.25rem 0.25rem 0;
-}
-
-blockquote {
-  
+  text-align: justify;
+  font-family: courier;
+  font-size: smaller;
+  background: aliceblue;
+  margin: 2rem 0;
+  padding: 0.5em 1rem;
+  border-left: 3px double rgba(0, 0, 0, 0.35);
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 header {
-    font-family: Venice, Courier;
+  font-family: Venice, Courier;
 }
 
 article {
-    font-family: Redaction;
-    background: url('/img/birdhz-bg-small.jpg') repeat;
+  font-family: Courier, monospace;
+  font-size: smaller;
+  /* background: url('/img/birdhz-bg-small.jpg') repeat; */
+}
+
+nav {
+  background: url('/img/birdhz-bg-small.jpg') repeat;
 }
 
 nav [aria-current='page']#homelink::before {
-    content: '\2665';
+  content: '\2665';
 }
 
 nav #homelink::before {
-    content: '\2661';
+  content: '\2661';
+}
+
+.post-header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: normal;
+  text-indent: 1rem;
+  font-style: italic;
+  border-bottom: 1px solid #222;
+}
+
+.post-subtitle {
+  font-family: Venice, Courier, monospace;
+  font-size: x-large;
 }
 
 /* article {

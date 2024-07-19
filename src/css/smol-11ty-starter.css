@@ -11,13 +11,13 @@ body {
   flex-direction: column;
   min-height: 100vh;
   padding: 5vh clamp(1rem, 5vw, 3rem) 1rem;
-  font-family: system-ui, sans-serif;
+  font-family: Courier, monospace;
   line-height: 1.5;
   color: #222;
 }
 
 body > * {
-  --layout-spacing: max(8vh, 3rem);
+  --layout-spacing: max(4vh, 2rem);
   --max-width: 70ch;
   width: min(100%, var(--max-width));
   margin-left: auto;
@@ -37,7 +37,7 @@ nav ul li {
   padding: 0.5rem 1rem;
 }
 
-nav [aria-current="page"] {
+nav [aria-current='page'] {
   font-weight: bold;
 }
 
@@ -68,9 +68,9 @@ article * + * {
   line-height: 1.2;
 }
 
-:is(h1, h2) {
+/* :is(h1, h2) {
   max-width: 40ch;
-}
+} */
 
 :is(h2, h3):not(:first-child) {
   margin-top: 2em;
@@ -106,7 +106,7 @@ article img {
 
 /* Supporting Content */
 
-code:not([class*="language"]) {
+code:not([class*='language']) {
   font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
   font-size: 1.75ex;
   color: #444;
