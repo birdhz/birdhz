@@ -8,6 +8,7 @@ header: zeldas
 some cool links:
 
 - [11ty](https://11ty.dev)
+- [colorhexa](https://www.colorhexa.com/)
 
 all-ages diy spaces:
 
