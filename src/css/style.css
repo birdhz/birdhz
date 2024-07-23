@@ -1,15 +1,15 @@
 @import 'smol-11ty-starter.css';
 @import 'redaction.css';
+@import 'courier-prime.css';
 
 @font-face {
   font-family: Venice;
   src: url('/fonts/venice_classic/VeniceClassic.ttf') format('truetype');
-  backdrop-filter: invert(1);
 }
 
 blockquote {
   text-align: justify;
-  font-family: courier;
+  font-family: 'Courier Prime';
   font-size: smaller;
   background: aliceblue;
   margin: 2rem 0;
@@ -24,20 +24,28 @@ header {
 
 article {
   font-family: Courier, monospace;
-  font-size: smaller;
+  font-size: small;
   /* background: url('/img/birdhz-bg-small.jpg') repeat; */
 }
 
 nav {
   background: url('/img/birdhz-bg-small.jpg') repeat;
+  font-family: 'Courier Prime', monospace;
 }
 
 nav [aria-current='page']#homelink::before {
-  content: '\2665';
+  content: '\2764';
 }
 
 nav #homelink::before {
   content: '\2661';
+}
+
+.poem {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  background-color: antiquewhite;
+  padding-left: 3ch;
 }
 
 .post-header {
