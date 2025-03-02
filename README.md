@@ -4,6 +4,7 @@ i plan to use this repo with github actions to push onto [a neocities website](h
 
 ## todo
 
+- [ ] "other me's" or some-like named nav --> archive my old tumblr if it still exists, i think my deviant art was wipes, music sites, etc.
 - [ ] implement _holy grail layout_
 - [ ] work on `not_found` (rename to `404` or figure out how to handle http req errors on 11ty ssg)
 - [ ] rss via atom?
